@@ -43,5 +43,12 @@ In the Filesystem tab of the LimaCharlie EDR, analysts can efficiently test the 
 ![Screenshot 2024-12-02 223237](https://github.com/user-attachments/assets/071dc8e9-f50d-4610-8b5d-619c4d4c4834)
 ![Screenshot 2024-12-02 223255](https://github.com/user-attachments/assets/aaae7abb-d96a-4042-b19c-1ecac2763764)
 
+## Custom Detection and Response Rule Implementation and Testing in LimaCharlie EDR
 
+
+In this section, I demonstrate the process of creating a custom Detection and Response (D&R) rule within LimaCharlie EDR. I walk through the configuration and programming involved in setting up both the detection and response components, highlighting the flexibility and effectiveness of LimaCharlie in automating threat identification and response. After establishing the rule, I test its functionality by checking if it successfully detects and responds to the hash of malware present on the system. To further validate the system’s capabilities, I clear the detection section and generate new attacks on the virtual machine. This allows me to showcase how LimaCharlie effectively identifies and responds to various malware threats and malicious commands in real-time. By continuously monitoring and reacting to these attacks, LimaCharlie ensures robust protection, proving its reliability in detecting and mitigating security risks within the environment.
+![Creating a New rule ](https://github.com/user-attachments/assets/f6043bcb-9fd5-44b5-9bf8-ff922b95320d)
+![Creating our Detect and Respond ](https://github.com/user-attachments/assets/67df2d7b-f227-414a-81df-4b8874362724)
+![Testing to see if the rule will work compare to the event](https://github.com/user-attachments/assets/f4ab443d-9655-4241-ba56-e5b70bad4a58)
+![The detection worked ](https://github.com/user-attachments/assets/233f9924-20cf-4f60-8f90-8b5881642a6a)
 
