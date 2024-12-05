@@ -16,3 +16,10 @@ The key distinction between SOAR and a traditional SIEM (Security Information an
 Integrating a SOAR system into your security operations enhances overall efficiency, reduces risks, and strengthens the ability to mitigate threats effectively.
 
 ## Project Overview
+
+![image](https://github.com/user-attachments/assets/008ed71c-37f2-4582-93e3-c8c9c64cfab4)
+
+
+In this project, I have developed a workbook that demonstrates the integration of LimaCharlie (our Endpoint Detection and Response, or EDR) with Tines, a security orchestration, automation, and response (SOAR) platform. The objective is to show how LimaCharlie detects malicious software or commands on an endpoint, and how Tines is used to automate the response process.
+
+Upon detection of a threat by LimaCharlie, a notification is triggered to alert relevant stakeholders via Slack and Email. At this point, a user prompt is presented, asking whether the affected machine should be isolated from the network. If the user selects "No," they will receive a message informing them that the machine was not isolated. If "Yes" is selected, the affected machine will be quarantined from the network, effectively containing the threat and reducing potential damage to the environment.
