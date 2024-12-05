@@ -52,3 +52,10 @@ In this section, I demonstrate the process of creating a custom Detection and Re
 ![Testing to see if the rule will work compare to the event](https://github.com/user-attachments/assets/f4ab443d-9655-4241-ba56-e5b70bad4a58)
 ![The detection worked ](https://github.com/user-attachments/assets/233f9924-20cf-4f60-8f90-8b5881642a6a)
 
+
+## Automated Incident Response Workflow: Integrating LimaCharlie, Tines, Slack, and Email
+In this section, I demonstrate the integration of Slack, email, and LimaCharlie with Tines, illustrating how each platform works in tandem within a streamlined security automation workflow. By connecting the webhooks from LimaCharlie to Tines, I generate an incident that is automatically relayed to both Slack and my email, ensuring real-time notifications of security events. Additionally, I showcase the user prompt functionality, allowing the decision to quarantine the network or take alternative actions based on the nature of the incident. I further highlight how the incident is efficiently transmitted to Slack, enabling prompt and informed responses from key stakeholders. This integration enhances communication, accelerates incident response, and ensures a comprehensive approach to threat management. With this, I conclude the project, demonstrating the power of automated incident response and seamless cross-platform collaboration.
+![Mapping out the process in Tines ](https://github.com/user-attachments/assets/56834dac-4af9-402c-bb7a-eef861a96611)
+![Screenshot 2024-12-03 101254](https://github.com/user-attachments/assets/9bc746e2-3d4f-4ea5-94b6-e689c2de66ae)
+![Screenshot 2024-12-03 103146](https://github.com/user-attachments/assets/89422553-27db-49dd-9bbc-5f3a56191890)
+
