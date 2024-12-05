@@ -17,9 +17,22 @@ Integrating a SOAR system into your security operations enhances overall efficie
 
 ## Project Overview
 
-![image](https://github.com/user-attachments/assets/008ed71c-37f2-4582-93e3-c8c9c64cfab4)
-
-
 In this project, I have developed a workbook that demonstrates the integration of LimaCharlie (our Endpoint Detection and Response, or EDR) with Tines, a security orchestration, automation, and response (SOAR) platform. The objective is to show how LimaCharlie detects malicious software or commands on an endpoint, and how Tines is used to automate the response process.
 
 Upon detection of a threat by LimaCharlie, a notification is triggered to alert relevant stakeholders via Slack and Email. At this point, a user prompt is presented, asking whether the affected machine should be isolated from the network. If the user selects "No," they will receive a message informing them that the machine was not isolated. If "Yes" is selected, the affected machine will be quarantined from the network, effectively containing the threat and reducing potential damage to the environment.
+
+
+![image](https://github.com/user-attachments/assets/008ed71c-37f2-4582-93e3-c8c9c64cfab4)
+
+## Installation and Persistence Detection with LimaCharlie
+
+
+In this section, I successfully created my LimaCharlie account and navigated to the Sensor section to copy the sensor installation command for my Windows 11 machine. Using the PowerShell tool, I was able to deploy the sensor on the system. Additionally, I demonstrated how LimaCharlie’s Autoruns feature can be leveraged to detect persistence mechanisms commonly used by adversaries, particularly Advanced Persistent Threats (APTs).
+
+APTs pose a significant risk to organizations, often involving long-term, covert access to systems. Having a tool like LimaCharlie to monitor and identify persistent threats is essential for enhancing an organization’s defense against these advanced attack techniques.
+![Screenshot 2024-12-02 221154](https://github.com/user-attachments/assets/a4b108da-1d95-4cce-bd70-9bc9f0973cc3)
+![Screenshot 2024-12-02 222704](https://github.com/user-attachments/assets/6e7ee725-b636-47c0-861d-d85362686505)![Screenshot 2024-12-02 222743](https://github.com/user-attachments/assets/61d0f43c-d0a1-4eb0-88b0-b8b47542ec36)
+![Use Autoruns for persistence ](https://github.com/user-attachments/assets/7f4ff45d-0bcb-43f5-bd4d-4a87f259817e)
+
+
+
