@@ -34,5 +34,14 @@ APTs pose a significant risk to organizations, often involving long-term, covert
 ![Screenshot 2024-12-02 222704](https://github.com/user-attachments/assets/6e7ee725-b636-47c0-861d-d85362686505)![Screenshot 2024-12-02 222743](https://github.com/user-attachments/assets/61d0f43c-d0a1-4eb0-88b0-b8b47542ec36)
 ![Use Autoruns for persistence ](https://github.com/user-attachments/assets/7f4ff45d-0bcb-43f5-bd4d-4a87f259817e)
 
+## Comprehensive Endpoint Monitoring: Filesystem Integrity, User Activity, and Threat Detection
+
+
+In the Filesystem tab of the LimaCharlie EDR, analysts can efficiently test the hash of software on a system through VirusTotal, helping to quickly assess potential threats. This functionality is crucial in identifying malicious files based on their hashes, aiding in the detection of known and unknown threats. Additionally, the Integrity Monitoring feature is vital for ensuring the security of files by flagging any unauthorized modifications. Integrity monitoring aligns with one of the most critical components of the CIA triad integrity by detecting changes to files that may indicate malicious activity or unauthorized access. Moreover, the Users tab allows analysts to monitor user accounts on the system, including Administrator, Cyber, Default, and Guest accounts. This capability is essential for detecting any unauthorized creation of user accounts, which could be indicative of a cyber attack. Finally, the Timeline section provides a comprehensive view of the system's events, offering valuable insights into ongoing activities within the environment. By tracking these events, analysts can identify potential threats and Indicators of Compromise (IOCs), ensuring a proactive approach to monitoring and defending against cybersecurity risks.
+![Screenshot 2024-12-02 223004](https://github.com/user-attachments/assets/830ef4fb-5293-46a3-bbe5-2271606d4d1b)
+![Any changes to any files on the computer ](https://github.com/user-attachments/assets/1c23d551-67b4-4e44-aea7-37f4fc6fcb6d)
+![Screenshot 2024-12-02 223237](https://github.com/user-attachments/assets/071dc8e9-f50d-4610-8b5d-619c4d4c4834)
+![Screenshot 2024-12-02 223255](https://github.com/user-attachments/assets/aaae7abb-d96a-4042-b19c-1ecac2763764)
+
 
 
