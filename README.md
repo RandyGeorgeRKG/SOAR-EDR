@@ -1,4 +1,7 @@
-# SOAR-EDR
+# SOAR(Tines)-EDR(LimaCharlie) Project 
+![image](https://github.com/user-attachments/assets/9db49eff-99fa-4f10-84e4-a0c4d14c9218) ![image](https://github.com/user-attachments/assets/344dc903-8cca-4533-a2aa-f5346888e1d2)
+
+
 
 
 
